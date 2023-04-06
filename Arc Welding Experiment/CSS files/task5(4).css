@@ -1,0 +1,155 @@
+.container-fluid{
+  position: relative;
+}
+#main-content{
+  border: 3px solid black;
+  margin-top: 1px;
+}
+.row-header{
+  background-color: #012e40;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, sans-serif;
+}
+.heading{
+  margin-top: 0.75%;
+  margin-left: -5%;
+}
+#second-header{
+  background-color: black; 
+  padding: 0.1px; 
+  color: white; 
+  font-family: "Times New Roman", Times, sans-serif;
+}
+#logo{
+  display: inline;
+  height: 90px;
+  width: 130px;
+}
+.middlepart{
+  margin-top: 2.25px;
+  margin-bottom: 2.25px;
+  height: 550px ;
+}
+.flex-container{
+  display: flex;
+}
+.flex-child{
+  flex: 1;
+}
+.flex-child:first-child{
+  margin-right: 0px;
+}
+ul{
+  list-style-type: none;
+  position: absolute;
+  padding-right: 10px;
+  margin-top: 2px;
+}
+ul li{
+  border: 1px solid #ddd;
+  margin-top: 42.5px;
+  text-align: center;
+  background-color: #65bcd7;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+ul li:hover{
+  background-color: rgb(8, 11, 14);
+}
+.btn-group{
+  border: none;
+  width: 500px;
+  padding-right: 2%;
+  height: 550px ;    
+}
+.display-box{
+  position: relative;
+  padding-top: 5px;
+  border: 3px solid black;
+  display: flex;
+  height: 550px;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin: 0px;
+}
+#img1{
+  position: absolute;
+  display: inline;
+  top: 41%;
+  left: 26%;
+  height: 30%;
+  width: 50%;
+}
+#text{
+  position: absolute;
+  margin-left: 36.5%;
+}
+#des{
+  position: relative;
+  margin-top: 8.5%;
+}
+.footer{
+  position: relative;
+  background-color: #012e40;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 14px;
+  padding: 1px;
+  padding-top: 7.5px;
+  margin-bottom: 1px;
+}
+.ins{
+  position: absolute;
+  display: none;
+  border: 3px solid black;
+  margin-left: 83%;
+  margin-top: -48.65%;
+  height: 45.3em;
+  width: fit-content;
+  background-color: rgb(234, 234, 234);
+}
+.ins_title{
+  height: fit-content;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: #012e40;
+  color: white;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 7.5px;
+}
+.ins_text{
+  height: 37.5em; 
+  margin-top: 5px;
+  margin-left: 2.5px;
+  margin-bottom: 5px;
+  overflow: scroll;
+}
+.ins_btn{
+  height: fit-content;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.Cbtn{
+  position: absolute;
+  top: 93.5%;
+  left: 28.25%;
+  background-color: black;
+  color: white;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}

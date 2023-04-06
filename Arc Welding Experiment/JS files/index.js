@@ -1,0 +1,23 @@
+setTimeout(
+    function()
+    {
+        alert("Please start with Equipment Details !");
+    },100
+);
+$(document).ready(function(){
+    $('#b1').click(function(){
+        location.href="task5(1).htm";
+    });
+    document.getElementById('b2').disabled=true;
+    document.getElementById('b3').disabled=true;
+    document.getElementById('b4').disabled=true;
+    $('#b5').click(function(){
+        location.href="index.htm";
+    });
+    $('#b6').click(function(){
+        $('#Ins').show();
+    });
+    $('.Cbtn').click(function(){
+        $('#Ins').hide();
+    });
+});

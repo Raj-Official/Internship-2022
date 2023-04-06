@@ -1,0 +1,703 @@
+setTimeout(
+    function()
+    {
+        alert("Please select the Material and Electrode !");
+    },100
+);
+$(document).ready(function(){
+    document.getElementById('b1').disabled=true;
+    document.getElementById('b2').disabled=true;
+    document.getElementById('b3').disabled=true;
+    document.getElementById('b4').disabled=true;
+    $('#b5').click(function(){
+        location.href="index.htm";
+    });
+    $('#b6').click(function(){
+        $('#Ins').show();
+    });
+    $('.Cbtn').click(function(){
+        $('#Ins').hide();
+    });
+    $('#back1').click(function(){
+        location.href="task5(2).htm";
+    });
+    $('#next1').click(function(){
+        setTimeout(
+            function()
+            {
+                alert("Click on CLEAN button for cleaning of metal !");
+            },50
+        );
+        if(document.getElementById('al').style.display=="inline"&&document.getElementById('tn').style.display=="inline"){
+            $('#al').hide();
+            $('#tn').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname1').show();
+            $('#elecname1').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#brush').show();
+            $('#slctdimgal').show();
+            $('#slctdimgtn').show();
+        }
+        else if(document.getElementById('al').style.display=="inline"&&document.getElementById('ni').style.display=="inline"){
+            $('#al').hide();
+            $('#ni').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname1').show();
+            $('#elecname2').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgal').show();
+            $('#slctdimgni').show();
+        }
+        else if(document.getElementById('al').style.display=="inline"&&document.getElementById('st').style.display=="inline"){
+            $('#al').hide();
+            $('#st').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname1').show();
+            $('#elecname3').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgal').show();
+            $('#slctdimgst').show();
+        }
+        else if(document.getElementById('fe').style.display=="inline"&&document.getElementById('tn').style.display=="inline"){
+            $('#fe').hide();
+            $('#tn').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname2').show();
+            $('#elecname1').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgfe').show();
+            $('#slctdimgtn').show();
+        }
+        else if(document.getElementById('fe').style.display=="inline"&&document.getElementById('ni').style.display=="inline"){
+            $('#fe').hide();
+            $('#ni').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname2').show();
+            $('#elecname2').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgfe').show();
+            $('#slctdimgni').show();
+        }
+        else if(document.getElementById('fe').style.display=="inline"&&document.getElementById('st').style.display=="inline"){
+            $('#fe').hide();
+            $('#st').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname2').show();
+            $('#elecname3').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgfe').show();
+            $('#slctdimgst').show();
+        }
+        else if(document.getElementById('ss').style.display=="inline"&&document.getElementById('tn').style.display=="inline"){
+            $('#ss').hide();
+            $('#tn').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname3').show();
+            $('#elecname1').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgss').show();
+            $('#slctdimgtn').show();
+        }
+        else if(document.getElementById('ss').style.display=="inline"&&document.getElementById('ni').style.display=="inline"){
+            $('#ss').hide();
+            $('#ni').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+            
+            $('#matname3').show();
+            $('#elecname2').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgss').show();
+            $('#slctdimgni').show();
+        }
+        else if(document.getElementById('ss').style.display=="inline"&&document.getElementById('st').style.display=="inline"){
+            $('#ss').hide();
+            $('#st').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname3').show();
+            $('#elecname3').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgss').show();
+            $('#slctdimgst').show();
+        }
+        else if(document.getElementById('ti').style.display=="inline"&&document.getElementById('tn').style.display=="inline"){
+            $('#ti').hide();
+            $('#tn').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname4').show();
+            $('#elecname1').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgti').show();
+            $('#slctdimgtn').show();
+        }
+        else if(document.getElementById('ti').style.display=="inline"&&document.getElementById('ni').style.display=="inline"){
+            $('#ti').hide();
+            $('#ni').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname4').show();
+            $('#elecname2').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgti').show();
+            $('#slctdimgni').show();
+        }
+        else if(document.getElementById('ti').style.display=="inline"&&document.getElementById('st').style.display=="inline"){
+            $('#ti').hide();
+            $('#st').hide();
+            $('#next1').hide();
+            $('.dropdown').hide();
+
+            $('#matname4').show();
+            $('#elecname3').show();
+            $('#next2').show();
+            $('#back1').show();
+            $('#clean').show();
+            $('#slctdimgti').show();
+            $('#slctdimgst').show();
+        }
+        else{
+            alert("Please select both the elements !");
+        }
+    });
+    document.getElementById('#next2').disabled=true;
+});
+function al(){
+    $('#fe').hide();
+    $('#ss').hide();
+    $('#ti').hide();
+    $('#al').show();
+}
+function fe(){
+    $('#al').hide();
+    $('#ss').hide();
+    $('#ti').hide();
+    $('#fe').show();
+}
+function ss(){
+    $('#fe').hide();
+    $('#al').hide();
+    $('#ti').hide();
+    $('#ss').show();
+}
+function ti(){
+    $('#ss').hide();
+    $('#al').hide();
+    $('#fe').hide();
+    $('#ti').show();
+}
+function tn(){
+    $('#ni').hide();
+    $('#st').hide();
+    $('#tn').show();
+}
+function ni(){
+    $('#tn').hide();
+    $('#st').hide();
+    $('#ni').show();
+}
+function st(){
+    $('#tn').hide();
+    $('#ni').hide();
+    $('#st').show();
+}
+function clean(){
+    $('#sandpaper').show();
+    if(document.getElementById('slctdimgal').style.display=="inline"&&document.getElementById('slctdimgtn').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgal').hide();
+                document.getElementById('20clearal').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearal').hide();
+                document.getElementById('70clearal').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearal').hide();
+                document.getElementById('al').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgal').style.display=="inline"&&document.getElementById('slctdimgni').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgal').hide();
+                document.getElementById('20clearal').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearal').hide();
+                document.getElementById('70clearal').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearal').hide();
+                document.getElementById('al').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgal').style.display=="inline"&&document.getElementById('slctdimgst').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgal').hide();
+                document.getElementById('20clearal').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearal').hide();
+                document.getElementById('70clearal').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearal').hide();
+                document.getElementById('al').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgfe').style.display=="inline"&&document.getElementById('slctdimgtn').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgfe').hide();
+                document.getElementById('20clearfe').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearfe').hide();
+                document.getElementById('70clearfe').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearfe').hide();
+                document.getElementById('fe').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgfe').style.display=="inline"&&document.getElementById('slctdimgni').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgfe').hide();
+                document.getElementById('20clearfe').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearfe').hide();
+                document.getElementById('70clearfe').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearfe').hide();
+                document.getElementById('fe').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgfe').style.display=="inline"&&document.getElementById('slctdimgst').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgfe').hide();
+                document.getElementById('20clearfe').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearfe').hide();
+                document.getElementById('70clearfe').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearfe').hide();
+                document.getElementById('fe').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgss').style.display=="inline"&&document.getElementById('slctdimgtn').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgss').hide();
+                document.getElementById('20clearss').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearss').hide();
+                document.getElementById('70clearss').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearss').hide();
+                document.getElementById('ss').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgss').style.display=="inline"&&document.getElementById('slctdimgni').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgss').hide();
+                document.getElementById('20clearss').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearss').hide();
+                document.getElementById('70clearss').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearss').hide();
+                document.getElementById('ss').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgss').style.display=="inline"&&document.getElementById('slctdimgst').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgss').hide();
+                document.getElementById('20clearss').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearss').hide();
+                document.getElementById('70clearss').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearss').hide();
+                document.getElementById('ss').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgti').style.display=="inline"&&document.getElementById('slctdimgtn').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgti').hide();
+                document.getElementById('20clearti').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearti').hide();
+                document.getElementById('70clearti').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearti').hide();
+                document.getElementById('ti').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgti').style.display=="inline"&&document.getElementById('slctdimgni').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgti').hide();
+                document.getElementById('20clearti').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearti').hide();
+                document.getElementById('70clearti').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearti').hide();
+                document.getElementById('ti').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                    location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+    else if(document.getElementById('slctdimgti').style.display=="inline"&&document.getElementById('slctdimgst').style.display=="inline"){
+        setTimeout(
+            function()
+            {
+                $('#slctdimgti').hide();
+                document.getElementById('20clearti').style.display='inline';
+            },1200
+        );
+        setTimeout(
+            function()
+            {
+                $('#20clearti').hide();
+                document.getElementById('70clearti').style.display='inline';
+            },3000
+        );
+        setTimeout(
+            function()
+            {
+                $('#70clearti').hide();
+                document.getElementById('ti').style.display='inline';
+                $('#sandpaper').hide();
+                document.getElementById('next2').enabled;
+                setTimeout(
+                    function()
+                    {
+                        alert("Click on NEXT button !");
+                    },200
+                );
+                $('#next2').click(function(){
+                    document.getElementById('b3').enabled;
+                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    $('#b3').click(function(){
+                        location.href="task5(3).htm";
+                    });
+                });
+            },5000
+        );
+    }
+}

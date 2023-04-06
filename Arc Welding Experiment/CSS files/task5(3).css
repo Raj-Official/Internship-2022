@@ -1,0 +1,443 @@
+.container-fluid{
+  position: relative;
+}
+#main-content{
+  border: 3px solid black;
+  margin-top: 1px;
+}
+.row-header{
+  background-color: #012e40;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, sans-serif;
+}
+.heading{
+  margin-top: 0.75%;
+  margin-left: -5%;
+}
+#second-header{
+  background-color: black; 
+  padding: 0.1px; 
+  color: white; 
+  font-family: "Times New Roman", Times, sans-serif;
+}
+#logo{
+  display: inline;
+  height: 90px;
+  width: 130px;
+}
+.middlepart{
+  margin-top: 2.25px;
+  margin-bottom: 2.25px;
+  height: 550px ;
+}
+.flex-container{
+  display: flex;
+}
+.flex-child{
+  flex: 1;
+}
+.flex-child:first-child{
+  margin-right: 0px;
+}
+ul{
+  list-style-type: none;
+  position: absolute;
+  padding-right: 10px;
+  margin-top: 2px;
+}
+ul li{
+  border: 1px solid #ddd;
+  margin-top: 42.5px;
+  text-align: center;
+  background-color: #65bcd7;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+ul li:hover{
+  background-color: rgb(8, 11, 14);
+}
+.btn-group{
+  border: none;
+  width: 500px;
+  padding-right: 2%;
+  height: 550px ;    
+}
+.display-box{
+  position: relative;
+  padding-top: 2px;
+  padding-left: 2px;
+  border: 3px solid black;
+  display: flex;
+  height: 550px;
+}
+.dropbtn{
+  position: absolute;
+  background-color: #ffffff;
+  color: black;
+  top: 0%;
+  left: 0%;
+  width: 150px;
+  padding-right: 25px;
+  font-size: 16px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.dropdown{
+  position: absolute;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  top: 5.25%;
+  width: 150px;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+.dropdown-content a{
+  color: black;
+  padding: auto;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: #cdcbcb
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropbtn{
+  background-color: grey;
+}
+#object1{
+  position: absolute;
+  display: none;
+  left: 5%;
+  top: 70%;
+  height: 125px;
+  width: 160px;
+}
+#object2{
+  position: absolute;
+  display: none;
+  left: 7.1%;
+  top: 48.1%;
+  height: 200px;
+  width: 52.5px;
+}
+#object3{
+  position: absolute;
+  display: none;
+  left: 7%;
+  top: 37.95%;
+  height: 85px;
+  width: 90px;
+}
+#object4{
+  position: absolute;
+  display: none;
+  left: 42.2%;
+  top: 10%;
+  height: 400px;
+  width: 575px;
+}
+#object5{
+  position: absolute;
+  display: none;
+  left: 28.5%;
+  top: 47.5%;
+  height: 200px;
+  width: 325px;
+}
+#object6{
+  position: absolute;
+  display: none;
+  left: 73.5%;
+  top: 56.75%;
+  height: 100px;
+  width: 100px;
+}
+#object61{
+  position: absolute;
+  display: none;
+  left: 73.5%;
+  top: 56.75%;
+  height: 100px;
+  width: 100px;
+  animation: moveup;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  z-index: 4;
+}
+@keyframes moveup {
+  from{
+    left: 73.5%;
+    top: 56.75%;
+  }
+  to{
+    left: 71.25%;
+    top: 29%;
+  }
+}
+#object12{
+  position: absolute;
+  display: none;
+  left: 71.25%;
+  top: 29%;
+  height: 100px;
+  width: 100px;
+  z-index: 2;
+  animation: movedown;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+@keyframes movedown{
+  from{top: 29%;}
+  to{top: 54.75%;}
+}
+#object7{
+position: absolute;
+display: none;
+left: 65%;
+top: 22.5%;
+width: 115px;
+height: 100px;
+animation: blink 10ms, sparks 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+animation-play-state: running;
+z-index: 3;
+}
+@keyframes sparks{
+  from{top: 22.5%;}
+  to{top: 45%;}
+}
+@keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+}
+#object8{
+  position: absolute;
+  display: none;
+  top: 77.3%;
+  left: 14.6%;
+  height: 22.5px;
+  width: 22.5px;
+  cursor: pointer;
+}
+#object9{
+  position: absolute;
+  display: none;
+  top: 82.88%;
+  left: 14.675%;
+  height: 21px;
+  width: 21px;
+  cursor: pointer;
+}
+#object10{
+  position: absolute;
+  display: none;
+  top: 70.9%;
+  left: 18.15%;
+  height: 77.5px;
+  width: 270px;
+}
+#object11{
+  position: absolute;
+  display: none;
+  top: 6.5%;
+  left: 48.5%;
+  height: 400px;
+  width: 450px;
+  z-index: 1;
+}
+#object13{
+  position: absolute;
+  display: none;
+  top: 30%;
+  left: 67.5%;
+  height: 10px;
+  width: 45px;
+  z-index: 0.5;
+  animation: weldd;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  animation-duration: 5.65s;
+}
+@keyframes weldd{
+  from{
+    height: 10px;
+  }
+  to{
+    height: 141.825px;
+  }
+}
+.switch{
+  position: absolute;
+  display: none;
+  top: 39%;
+  left: 3%;
+  width: 34px;
+  height: 60px;
+}
+.switch input{ 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before{
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  top: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider{
+  background-color: #2196F3;
+}
+input:focus + .slider{
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateY(26px);
+  -ms-transform: translateY(26px);
+  transform: translateY(26px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before{
+  border-radius: 50%;
+}
+#start, #next{
+  position: absolute;
+  background-color: rgb(124, 125, 125);
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  left: 40%;
+  top: 50%;
+  float: left;
+  width: 25%;
+  border: 2.5px solid black;
+}
+#start{
+  display: none;
+  position: absolute;
+  margin-top: 22.5%;
+  margin-left: 6%;
+}
+#next{
+  display: none;
+  position: absolute;
+  margin-top: 22.5%;
+  margin-left: 32.5%;
+}
+#start:hover, #next:hover{
+  background-color: rgb(176, 176, 181);
+}
+.footer{
+  position: relative;
+  background-color: #012e40;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 14px;
+  padding: 1px;
+  padding-top: 7.5px;
+  margin-bottom: 1px;
+}
+svg{
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  margin-top: 8%;
+  margin-left: 17.5%;
+  z-index: 6;
+}
+line{
+  display: none;
+  stroke:black;
+  stroke-width: 3.5;
+  z-index: 6;
+}
+.ins{
+  position: absolute;
+  display: none;
+  border: 3px solid black;
+  margin-left: 83%;
+  margin-top: -48.65%;
+  height: 45.3em;
+  width: fit-content;
+  background-color: rgb(234, 234, 234);
+}
+.ins_title{
+  height: fit-content;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: #012e40;
+  color: white;
+  border: 3px solid black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 7.5px;
+}
+.ins_text{
+  height: 37.5em; 
+  margin-top: 5px;
+  margin-left: 2.5px;
+  margin-bottom: 5px;
+  overflow: scroll;
+}
+.ins_btn{
+  height: fit-content;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.Cbtn{
+  position: absolute;
+  top: 93.5%;
+  left: 28.25%;
+  background-color: black;
+  color: white;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}

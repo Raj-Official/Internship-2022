@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Equipment Details</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="..\JS files\task5(1).js"></script>
+    <link rel="stylesheet" href="..\CSS files\task5(1).css">
+    <script
+    src="https://browser.sent ry-cdn.com/7.5.1/bundle.min.js"
+    integrity="sha384-hqfUBwcPJtjcyE8jgb0/5s4wee/hsu/uZckh1FWBsUXNpjPYhee9ohNwbZE6N9Xt"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="col-10" id="main-content">
+
+        <div class="row-header flex-container">
+          <div class="col-2 flex-child">
+            <img id="logo" src="..\images\logo.jpeg" alt="logo">
+          </div>
+          <div class="col-10 text-center flex-child heading">
+            <h4>Virtual Labs IIT ROORKEE</h4>
+            <h4>Mechanical Engineering Laboratory</h4>
+          </div>
+        </div>
+
+      <div class="text-center" id="second-header"><h4>Arc Welding Process</h4></div>
+      <div class="flex-container middlepart">
+        <div class="col-2 flex-child">
+            <div class="col-2">
+              <div class="btn-group">
+                <ul>
+                  <li id="b1">Equipment Details</li>
+                  <li id="b2">Preprocessing</li>
+                  <li id="b3">Simulation</li>
+                  <li id="b4">Result</li>
+                  <li id="b5">Reset</li>
+                  <li id="b6">Instructions</li>
+                </ul>
+              </div> 
+            </div>
+        </div>
+        <div class="col-10 flex-child">
+          <div class="display-box">
+            <div class="exp-buttons">
+              <button id="EB1">OBJECTIVE OF EXPERIMENT</button>
+              <button id="EB2">EXPERIMENT DETAILS</button>
+            </div>
+              <div id="text1">
+                <h2><u>OBJECTIVE</u></h2>
+              </div>
+              <span id="des1"><h6><p>The objective is to butt join two metal plates using arc welding process.</p></h6></span>
+              <button id="back1" class="back">BACK</button>
+              <div id="text2">
+                <h2><u>EXPERIMENT DETAILS</u></h2>
+              </div>
+              <span id="des2"><h6><p>These equipments are used in arc welding.</p></h6></span>
+              <button id="back2" class="back">BACK</button>
+              <button id="next1" class="next">NEXT</button>
+              <div id="text3">
+                <h2><u>ELECTRODE</u></h2>
+              </div>
+              <span id="des3"><h6><p>An electrode is a solid electric conductor that carries electric current into non-metallic solids, or liquids, or gases, or plasmas, or vacuums. Electrodes are typically good electric conductors, but they need not be metals.</p></h6></span>
+              <img class="electrode" src="..\images\electrode.png" alt="electrode">
+              <button id="back3" class="back">BACK</button>
+              <button id="next2" class="next">NEXT</button>
+              <div id="text4">
+                <h2><u>ELECTRODE HOLDER</u></h2>
+              </div>
+              <span id="des4"><h6><p>Electrode holder is the insulated handle that clamps onto the electrode. The welder holds this device during welding to control the arc.</p></h6></span>
+              <img class="electrodeholder" src="..\images\electrodeholder.png" alt="electrodeholder">
+              <button id="back4" class="back">BACK</button>
+              <button id="next3" class="next">NEXT</button>
+              <div id="text5">
+                <h2><u>ELECTRODE CABLE</u></h2>
+              </div>
+              <span id="des5"><h6><p>The electrode input cable connects between the Drive Headstage and the electrodes and allows recording and stimulation from up to five electrodes simultaneously.</p><p>The cable also connects the micro and macro contacts of the electrode to the Headstage.</p></h6></span>
+              <img class="electrodecable" src="..\images\electrodecable.png" alt="electrodecable">
+              <button id="back5" class="back">BACK</button>
+              <button id="next4" class="next">NEXT</button>
+              <div id="text6">
+                <h2><u>METAL</u></h2>
+              </div>
+              <span id="des6"><h6><p>Weld metal is the material that has melted and re-solidified as a result of the welding operation. In cases where no filler material is added (resistance, electron beam, laser and some autogenous arc welding), the weld metal has the same composition as the parent material. Where filler materials are added to the weld pool, the composition of the weld metal usually differs from that of the parent material.</p></h6></span>
+              <img class="metalp" src="..\images\metalp.png" alt="metalplate">
+              <button id="back6" class="back">BACK</button>
+              <button id="next5" class="next">NEXT</button>
+              <div id="text7">
+                <h2><u>ARC WELDING SETUP</u></h2>
+              </div>
+              <span id="des7"><h6><p>These equipments are used in arc welding.</p></h6></span>
+              <img class="setup" src="..\images\setup.png" alt="arc welding setup">
+              <button id="back7" class="back">BACK</button>
+              <button id="next6" class="next">NEXT</button>
+          </div>
+          </div>
+        </div>
+
+      <div class="footer">
+        <h6>©2022 Virtual Labs, IIT Roorkee</h6>
+      </div>
+      
+    </div>
+  </div>
+
+  <div id="Ins" class="col-2 ins">
+    <div class="ins_title">
+      <h6>Instructions</h6>
+    </div>
+    <div class="ins_text">
+      1. Click on Equipment Details to start the experiment.</br>
+      <br>2. Click on Objective of Experiment.</br>
+      <br>3. Click on Experiment Details and press Next button in the last window to enable Preprocessing.</br>
+      <br>4. Click on Preprocessing.</br>
+      <br>5. Select the material and electrode.</br>
+      <br>6. Press Clean button.</br>
+      <br>7. Press Next button to enable Simulation.</br>
+      <br>8. Click on Simulation.</br>
+      <br>9. Select all the equipments from the menu.</br>
+      <br>10. Turn ON the power switch.</br>
+      <br>11. Make connections as,</br>
+      <br>11.1 Press the 🔵 to connect negative terminal of welding machine to the electrode.</br>
+      <br>11.2 Press the 🟡 to connect positive terminal of welding machine to the clamp.</br>
+      <br>12. Press Start button to start the welding process.</br>
+      <br>13. After the welding process, turn OFF the power switch.</br>
+      <br>14. Click on Next button to enable the Result.</br>
+      <br>15. Click on the RESULT to see it.</br>
+    </div>
+    <div class="ins_btn">
+      <button class="Cbtn">Close</button>
+    </div>
+  </div>
+  
+</body>
+</html>
