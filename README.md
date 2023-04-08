@@ -8,7 +8,8 @@ You can run it by two ways,
 * either by navigating the given link [Arc Welding Experiment.](https://raj-official.github.io/Internship-2022/)
 * or by pulling the code to your system.
 
-If you are pulling code on your computer then follow this way,
+
+*If you are pulling code on your computer then follow this way,*
 1. Dowload the whole repository in your computer.
 2. Open the index.htm file only in your browser.
 
@@ -19,7 +20,7 @@ If you are pulling code on your computer then follow this way,
 
 >
 
-ONCE YOU OPEN THE INDEX WEBPAGE BY ANY OF THE ABOVE TWO WAYS,
+>ONCE YOU OPEN THE INDEX WEBPAGE BY ANY OF THE ABOVE TWO WAYS,
 # Steps To Perform "Arc Welding Experiment":
 
 1. Click on Equipment Details to start the experiment.
