@@ -12,7 +12,7 @@ $(document).ready(function(){
     document.getElementById('b3').disabled=true;
     document.getElementById('b4').disabled=true;
     $('#b5').click(function(){
-        location.href="index.htm";
+        location.href="../../index.htm";
     });
     $('#b6').click(function(){
         $('#Ins').show();
