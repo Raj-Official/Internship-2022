@@ -5,8 +5,8 @@ Hello everybody, here I'm gonna tell you how to deploy my project and use it fla
 This project is the Web-Enabled Virtual Experiment of Arc Welding where you can perform the arc welding of two metal plates with the help various other equipments. By performing this experiment you'll get the complete information about practical which you perform in Mechanical Engineering Laboratory.
 
 You can run it by two ways,
-(a) either by navigating the given link [Arc Welding Experiment.](https://raj-official.github.io/Internship-2022/)
-(b) or by pulling the code to your system.
+* either by navigating the given link [Arc Welding Experiment.](https://raj-official.github.io/Internship-2022/)
+    * or by pulling the code to your system.
 
 If you are pulling code on your computer then follow this way,
 1. Dowload the whole repository in your computer.
