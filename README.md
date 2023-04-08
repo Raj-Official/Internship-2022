@@ -6,7 +6,7 @@ This project is the Web-Enabled Virtual Experiment of Arc Welding where you can 
 
 You can run it by two ways,
 * either by navigating the given link [Arc Welding Experiment.](https://raj-official.github.io/Internship-2022/)
-    * or by pulling the code to your system.
+* or by pulling the code to your system.
 
 If you are pulling code on your computer then follow this way,
 1. Dowload the whole repository in your computer.
@@ -17,7 +17,7 @@ If you are pulling code on your computer then follow this way,
 1. USE MICROSOFT EDGE BROWSER PREFERABLY FOR BETTER WORKING.
 2. DO NOT NAVIGATE ANY OF THE FILE FROM ITS LOCATION TO ANYWHERE ELSE. AS THIS WILL CORRUPT THE PATHS WRITTEN IN THE CODE AND MAY RESULT TO THE EXPERIMENT FAILURE.
 
-
+>
 
 ONCE YOU OPEN THE INDEX WEBPAGE BY ANY OF THE ABOVE TWO WAYS,
 # Steps To Perform "Arc Welding Experiment":
@@ -43,8 +43,8 @@ ONCE YOU OPEN THE INDEX WEBPAGE BY ANY OF THE ABOVE TWO WAYS,
 10. Turn ON the power switch.
 
 11. Make connections as,
-    (i) Press the 🔵 to connect negative terminal of welding machine to the electrode.
-    (ii) Press the 🟡 to connect positive terminal of welding machine to the clamp.
+    1. Press the 🔵 to connect negative terminal of welding machine to the electrode.
+    2. Press the 🟡 to connect positive terminal of welding machine to the clamp.
 
 12. Press Start button to start the welding process.
 
