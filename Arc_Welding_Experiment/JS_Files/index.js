@@ -6,7 +6,7 @@ setTimeout(
 );
 $(document).ready(function(){
     $('#b1').click(function(){
-        location.href="Arc_Welding_Experiment/HTM_Files/task5(1).htm";
+        location.href="task5(1).htm";
     });
     document.getElementById('b2').disabled=true;
     document.getElementById('b3').disabled=true;
