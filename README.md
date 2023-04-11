@@ -11,7 +11,7 @@ You can run it by two ways,
 *If you are pulling code on your computer, then follow this way,*
 1. Dowload the whole repository in your computer.
 2. Open the index.htm file only in your browser.
-* NOTE: DO NOT NAVIGATE ANY OF THE FILE FROM ITS LOCATION TO ANYWHERE ELSE WHILE PULING THE CODE, AS THIS WILL CORRUPT THE PATHS WRITTEN IN THE CODE WHICH MAY RESULT TO EXPERIMENT FAILURE.
+* NOTE:- Do not navigate any file from its original location to somewhere else while pulling the code, as this will corrupt the paths written in the code which may result in experiment failure !
 
 >ONCE YOU OPEN THE INDEX WEBPAGE BY ANY OF THE ABOVE TWO WAYS,
 
