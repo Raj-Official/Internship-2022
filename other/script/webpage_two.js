@@ -1,7 +1,7 @@
 setTimeout(
     function()
     {
-        alert("Please select the Material and Electrode !");
+        alert("Please select the Material and Electrode!");
     },100
 );
 $(document).ready(function(){
@@ -19,13 +19,13 @@ $(document).ready(function(){
         $('#Ins').hide();
     });
     $('#back1').click(function(){
-        location.href="task5(2).htm";
+        location.href="webpage_two.htm";
     });
     $('#next1').click(function(){
         setTimeout(
             function()
             {
-                alert("Click on CLEAN button for cleaning of metal !");
+                alert("Click on CLEAN button for cleaning of metal!");
             },50
         );
         if(document.getElementById('al').style.display=="inline"&&document.getElementById('tn').style.display=="inline"){
@@ -198,7 +198,7 @@ $(document).ready(function(){
             $('#slctdimgst').show();
         }
         else{
-            alert("Please select both the elements !");
+            alert("Please select both the elements!");
         }
     });
     document.getElementById('#next2').disabled=true;
@@ -269,14 +269,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -307,14 +307,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -345,14 +345,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -383,14 +383,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -421,14 +421,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -459,14 +459,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -497,14 +497,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -535,14 +535,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -573,14 +573,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -611,14 +611,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -649,14 +649,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                    location.href="task5(3).htm";
+                    location.href="webpage_three.htm";
                     });
                 });
             },5000
@@ -687,14 +687,14 @@ function clean(){
                 setTimeout(
                     function()
                     {
-                        alert("Click on NEXT button !");
+                        alert("Click on NEXT button!");
                     },200
                 );
                 $('#next2').click(function(){
                     document.getElementById('b3').enabled;
-                    alert("Simulation is enabled. Please click on Simulation to start it !");
+                    alert("Simulation is enabled. Please click on Simulation to start it!");
                     $('#b3').click(function(){
-                        location.href="task5(3).htm";
+                        location.href="webpage_three.htm";
                     });
                 });
             },5000

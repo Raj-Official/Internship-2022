@@ -1,7 +1,7 @@
 setTimeout(
     function()
     {
-        alert("Please select all the equipments for SETUP !");
+        alert("Please select all the equipments for SETUP!");
     },100
 );
 $(document).ready(function(){
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
             setTimeout(
                 function()
                 {
-                    alert('Click on NEXT button !');
+                    alert('Click on NEXT button!');
                 },400
             );
         }
@@ -164,7 +164,7 @@ $(document).ready(function(){
             setTimeout(
                 function()
                 {
-                    alert('Click on START button !');
+                    alert('Click on START button!');
                 },250
             );
         }
@@ -177,7 +177,7 @@ $(document).ready(function(){
             setTimeout(
                 function()
                 {
-                    alert('Click on START button !');
+                    alert('Click on START button!');
                 },250
             );
         }
@@ -214,7 +214,7 @@ $(document).ready(function(){
         setTimeout(
             function()
             {
-                alert('Switch OFF !');
+                alert('Switch OFF!');
             },6750
         );
         $('#next').prop('disabled', false);
@@ -222,9 +222,9 @@ $(document).ready(function(){
 
     $('#next').click(function() {
         $('#b4').prop('disabled', false);
-            alert("Now, you can Click on Result to see it !");
+            alert("Now, you can Click on Result for the final result!");
             $('#b4').click(function(){
-            location.href="task5(4).htm";
+            location.href="webpage_four.htm";
         });
     });
 });

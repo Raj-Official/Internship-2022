@@ -160,9 +160,9 @@ $(document).ready(function(){
     });
     $('#next6').click(function(){
     document.getElementById('b2').enabled;
-    alert("Preprocessing is enabled !");
+    alert("Preprocessing is enabled!");
     $('#b2').click(function(){
-        location.href="task5(2).htm";
+        location.href="webpage_two.htm";
     });
     });
     document.getElementById('b2').disabled=true;
