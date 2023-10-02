@@ -1,4 +1,4 @@
-# Internship-2022
+# Internship 2022
 Hello everyone, I have explained Code Of Conduct for my project here. Just follow the instructions below,
 
 # Description: 
