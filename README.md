@@ -1,8 +1,8 @@
 # Internship-2022
-Hello everybody, here I'm gonna tell you how to deploy my project and use it flawlessly. Just follow the instructions below,
+Hello everyone, I have explained full Code Of Conduct for my project here. Just follow the instructions below,
 
 # Description: 
-This project is the Web-Enabled Virtual Experiment of Arc Welding where you can perform the arc welding of two metal plates with the help various other equipments. By performing this experiment you'll get the complete information about practical which you perform in Mechanical Engineering Laboratory.
+This project is the Virtual Simulator of Web-Enabled Arc Welding Experiment where you can perform the welding of two metal plates by using arc method with the help various other equipments. By performing this experiment, you'll get to know about the whole Arc Welding Process which you performs in the Mechanical Engineering Laboratory.
 
 You can run it by two ways,
 * either by navigating the given link [Arc Welding Experiment.](https://raj-official.github.io/Internship-2022/)
