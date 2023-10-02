@@ -1,5 +1,5 @@
 # Internship 2022
-Hello everyone, I have explained Code Of Conduct for my project here. Just follow the instructions below,
+Hello everyone, I have explained the Code Of Conduct for my project here. Just follow the instructions below,
 
 # Description: 
 This project is the Virtual Simulator of Web-Enabled Arc Welding Experiment where you can perform the welding of two metal plates by using arc method with the help various other equipments. By performing this experiment, you'll get to know about the whole Arc Welding Process which you performs in the Mechanical Engineering Laboratory.
